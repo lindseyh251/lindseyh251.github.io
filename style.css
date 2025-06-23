@@ -38,16 +38,23 @@ nav a.active {
   padding: 0 1rem;
 }
 .intro {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
+
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: auto;
   object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 1rem;
+  border-radius: 10px;
   border: 2px solid #ccc;
 }
+
+.intro-text {
+  flex: 1;
+}
+
 .button {
   display: inline-block;
   padding: 0.5rem 1rem;
