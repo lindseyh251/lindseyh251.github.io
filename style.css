@@ -47,8 +47,8 @@ nav a.active {
   width: 250px;
   height: auto;
   object-fit: cover;
-  border-radius: 10px;
-  border: 2px solid #ccc;
+  border-radius: 0;
+  border: none;
 }
 
 .intro-text {
